@@ -1,10 +1,12 @@
+using Project;
 using System;
-using System.Collections.Generic; //remove if not using Dictionary in app //
+using System.Collections.Generic;
+
 
 class Program
 {
   static void Main()
   {
-
+    Console.WriteLine("Hello, welcome to Pierre's Bakery.");
   }
 }

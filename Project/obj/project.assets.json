@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\template\\ProjectName\\ProjectName.csproj",
-      "projectName": "ProjectName",
-      "projectPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\template\\ProjectName\\ProjectName.csproj",
+      "projectUniqueName": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\Project\\Project.csproj",
+      "projectName": "Project",
+      "projectPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\Project\\Project.csproj",
       "packagesPath": "C:\\Users\\zentr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\template\\ProjectName\\obj\\",
+      "outputPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
