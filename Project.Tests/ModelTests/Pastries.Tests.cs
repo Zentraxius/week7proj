@@ -21,8 +21,8 @@ namespace Project.Tests
     [TestMethod]
     public void PastriesPricer_TestShouldTellPriceOfPastries_PastriesHavePrice()
     {
-      Pastries pastriesTest = new Pastries(30);
-      Assert.AreEqual(50, pastriesTest.Price());
+      Pastries pastriesTest = new Pastries(32);
+      Assert.AreEqual(54, pastriesTest.Price());
     }
   }
 }

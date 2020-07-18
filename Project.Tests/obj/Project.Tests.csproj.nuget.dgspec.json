@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\project.tests\\Project.Tests.csproj": {}
+    "C:\\Users\\zentr\\Desktop\\Epicodus\\Week7\\Bakery.Solution\\project.tests\\Project.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\project.tests\\Project.Tests.csproj": {
+    "C:\\Users\\zentr\\Desktop\\Epicodus\\Week7\\Bakery.Solution\\project.tests\\Project.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\project.tests\\Project.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\zentr\\Desktop\\Epicodus\\Week7\\Bakery.Solution\\project.tests\\Project.Tests.csproj",
         "projectName": "Project.Tests",
-        "projectPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\project.tests\\Project.Tests.csproj",
+        "projectPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\Week7\\Bakery.Solution\\project.tests\\Project.Tests.csproj",
         "packagesPath": "C:\\Users\\zentr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\project.tests\\obj\\",
+        "outputPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\Week7\\Bakery.Solution\\project.tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -28,8 +28,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\Project\\Project.csproj": {
-                "projectPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\Project\\Project.csproj"
+              "C:\\Users\\zentr\\Desktop\\Epicodus\\Week7\\Bakery.Solution\\Project\\Project.csproj": {
+                "projectPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\Week7\\Bakery.Solution\\Project\\Project.csproj"
               }
             }
           }
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\Project\\Project.csproj": {
+    "C:\\Users\\zentr\\Desktop\\Epicodus\\Week7\\Bakery.Solution\\Project\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\Project\\Project.csproj",
+        "projectUniqueName": "C:\\Users\\zentr\\Desktop\\Epicodus\\Week7\\Bakery.Solution\\Project\\Project.csproj",
         "projectName": "Project",
-        "projectPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\Project\\Project.csproj",
+        "projectPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\Week7\\Bakery.Solution\\Project\\Project.csproj",
         "packagesPath": "C:\\Users\\zentr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\Project\\obj\\",
+        "outputPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\Week7\\Bakery.Solution\\Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
