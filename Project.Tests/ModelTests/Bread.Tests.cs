@@ -9,8 +9,8 @@ namespace Project.Tests
     [TestMethod]
     public void BreadChecker_TestShouldTellPrice_BreadIs5()
     {
-      Bread breadTest = new Bread(2);
-      Assert.AreEqual(true, breadTest.GetType());
+      Bread breadTest = new Bread(600);
+      Assert.AreEqual(typeof(Bread), breadTest.GetType());
     }
   }
 }
