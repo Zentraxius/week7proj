@@ -4,6 +4,10 @@ namespace Project
 {
   public class Bread
   {
-    // properties, constructors, methods, etc. go here
+    public int AmountOfBread { get; set; }
+    public Bread(int amountOfBread)
+    {
+      amountOfBread = AmountOfBread;
+    }
   }
 }

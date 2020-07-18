@@ -7,10 +7,10 @@ namespace Project.Tests
   public class BreadTests
   {
     [TestMethod]
-    public void Bread_TestShouldTellPrice_BreadIs5()
+    public void BreadChecker_TestShouldTellPrice_BreadIs5()
     {
-      Bread breadTest = new Bread();
-      Assert.AreEqual(true, breadTest.)
+      Bread breadTest = new Bread(2);
+      Assert.AreEqual(true, breadTest.GetType());
     }
   }
 }
