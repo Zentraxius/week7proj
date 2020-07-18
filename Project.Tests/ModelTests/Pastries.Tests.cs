@@ -22,7 +22,7 @@ namespace Project.Tests
     public void PastriesPricer_TestShouldTellPriceOfPastries_PastriesHavePrice()
     {
       Pastries pastriesTest = new Pastries(30);
-      Assert.AreEqual(30, pastriesTest.Price());
+      Assert.AreEqual(50, pastriesTest.Price());
     }
   }
 }

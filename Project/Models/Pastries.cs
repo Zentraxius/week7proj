@@ -20,7 +20,7 @@ namespace Project
       {
         remainingPastries = numberOfPastries % 3;
         pastriesHolder = numberOfPastries - remainingPastries;
-        price += (pastriesHolder * 5) + (remainingPastries * 2);
+        price += ((pastriesHolder / 3) * 5) + (remainingPastries * 2);
       }
       else
       {
