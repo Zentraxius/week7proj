@@ -15,16 +15,19 @@ namespace Project
       int price = 0;
       int numberOfBread = AmountOfBread;
       int remainingBread = 0;
-      remainingBread = numberOfBread % 3;
-      price += (numberOfBread - remainingBread) * 10 + (remainingBread * 5);
-      return price;
+      int breadHolder = 0;
 
-      // if (numberOfBread % 3 == 0)
-      // {
-      //   price += numberOfBread * 10;
-      // }
-      // price += numberOfBread * 5;
-      // return price;
+      if (numberOfBread >= 3)
+      {
+        remainingBread = numberOfBread % 3;
+        breadHolder = numberOfBread - remainingBread;
+        price += ((breadHolder / 3) * 10) + remainingBread * 5;
+      }
+      else
+      {
+        price += numberOfBread * 5;
+      }
+      return price;
     }
   }
 }

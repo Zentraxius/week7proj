@@ -18,7 +18,7 @@ namespace Project.Tests
     public void BreadPricer_DoesBreadReturnPrice_BreadHasPrice()
     {
       Bread breadTest = new Bread(25);
-      Assert.AreEqual(20, breadTest.AmountOfBread);
+      Assert.AreEqual(25, breadTest.AmountOfBread);
     }
   }
 }
