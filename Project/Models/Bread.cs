@@ -9,5 +9,16 @@ namespace Project
     {
       amountOfBread = AmountOfBread;
     }
+
+    public int Price()
+    {
+      int price = 5;
+      int numberOfBread = AmountOfBread;
+
+      if (numberOfBread % 3 == 0)
+      {
+
+      }
+    }
   }
 }
