@@ -25,7 +25,7 @@ namespace Project.Tests
     public void BreadPrice_WhatIsPriceOfBread_BreadHasPrice()
     {
       Bread breadTest = new Bread(25);
-      Assert.AreEqual(25, breadTest.Price());
+      Assert.AreEqual(85, breadTest.Price());
     }
   }
 }
