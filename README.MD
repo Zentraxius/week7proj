@@ -38,7 +38,7 @@
 
 ## Known Bugs
 
-No known bugs!
+When user orders an amount of bread &/ pastries where they are able to get an additional bread/pastry at the same price, no notice is given. This is not a bug, it is a feature.
 
 ## Support and contact details
 
