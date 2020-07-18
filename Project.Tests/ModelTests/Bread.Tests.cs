@@ -14,11 +14,18 @@ namespace Project.Tests
       Assert.AreEqual(typeof(Bread), breadTest.GetType());
     }
 
-    [TestMethod] // What is bread price
-    public void BreadPricer_DoesBreadReturnPrice_BreadHasPrice()
+    [TestMethod] // What is bread amount
+    public void BreadNumber_DoesBreadReturnNumber_BreadHasNumber()
     {
       Bread breadTest = new Bread(25);
       Assert.AreEqual(25, breadTest.AmountOfBread);
+    }
+    [TestMethod] // What is bread price
+
+    public void BreadPrice_WhatIsPriceOfBread_BreadHasPrice()
+    {
+      Bread breadTest = new Bread(25);
+      Assert.AreEqual(25, breadTest.Price());
     }
   }
 }

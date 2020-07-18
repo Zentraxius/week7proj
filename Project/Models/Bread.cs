@@ -21,7 +21,7 @@ namespace Project
       {
         remainingBread = numberOfBread % 3;
         breadHolder = numberOfBread - remainingBread;
-        price += ((breadHolder / 3) * 10) + remainingBread * 5;
+        price += ((breadHolder / 3) * 10) + (remainingBread * 5);
       }
       else
       {
