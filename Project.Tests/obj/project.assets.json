@@ -1618,14 +1618,14 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "ProjectName/1.0.0": {
+      "Project/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "compile": {
-          "bin/placeholder/ProjectName.dll": {}
+          "bin/placeholder/Project.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ProjectName.dll": {}
+          "bin/placeholder/Project.dll": {}
         }
       }
     }
@@ -5818,10 +5818,10 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "ProjectName/1.0.0": {
+    "Project/1.0.0": {
       "type": "project",
-      "path": "../ProjectName/ProjectName.csproj",
-      "msbuildProject": "../ProjectName/ProjectName.csproj"
+      "path": "../Project/Project.csproj",
+      "msbuildProject": "../Project/Project.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5830,7 +5830,7 @@
       "MSTest.TestFramework >= 1.3.2",
       "Microsoft.NET.Test.Sdk >= 15.9.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "ProjectName >= 1.0.0"
+      "Project >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5840,11 +5840,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\template\\ProjectName.Tests\\ProjectName.Tests.csproj",
-      "projectName": "ProjectName.Tests",
-      "projectPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\template\\ProjectName.Tests\\ProjectName.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\project.tests\\Project.Tests.csproj",
+      "projectName": "Project.Tests",
+      "projectPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\project.tests\\Project.Tests.csproj",
       "packagesPath": "C:\\Users\\zentr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\template\\ProjectName.Tests\\obj\\",
+      "outputPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\project.tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5861,8 +5861,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\template\\ProjectName\\ProjectName.csproj": {
-              "projectPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\template\\ProjectName\\ProjectName.csproj"
+            "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\Project\\Project.csproj": {
+              "projectPath": "C:\\Users\\zentr\\Desktop\\Epicodus\\week7\\week8proj\\Project\\Project.csproj"
             }
           }
         }
