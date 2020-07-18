@@ -6,6 +6,17 @@ namespace Project.Tests
   [TestClass]
   public class PastriesTests
   {
-    // Test methods go here
+    [TestMethod] // Are pastries real
+    public void PastriesChecker_TestShouldTellIfPastriesExists_PastriesIsReal()
+    {
+      Pastries pastriesTest = new Pastries(600);
+      Assert.AreEqual(typeof(Pastries), pastriesTest.GetType());
+    }
+    [TestMethod] // How many pastries?
+    public void PastriesChecker_TestShouldTellNumberOfPastries_PastriesHasNumber()
+    {
+      Pastries pastriesTest = new Pastries(30);
+      Assert.AreEqual(20, pastriesTest.AmountOfPastries);
+    }
   }
 }

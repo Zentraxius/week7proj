@@ -2,6 +2,10 @@ namespace Project
 {
   public class Pastries
   {
-    // properties, constructors, methods, etc. go here
+    public int AmountOfPastries { get; set; }
+    public Pastries(int amountOfPastries)
+    {
+      AmountOfPastries = amountOfPastries;
+    }
   }
 }
