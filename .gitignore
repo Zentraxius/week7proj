@@ -1,5 +1,4 @@
-ProjectName/bin/
-ProjectName/obj/
-ProjectName.Tests/bin/
-ProjectName.Tests/obj/
+obj/
+bin/
+dist/
 .env

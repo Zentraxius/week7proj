@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Project;
-//Bread is $5 a loaf, buy 2 get 1 free
-namespace Project.Tests
+using Bakery.Models;
+// Bread is $5 a loaf, buy 2 get 1 free
+namespace Bakery.Tests
 {
   [TestClass]
   public class BreadTests

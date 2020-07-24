@@ -1,5 +1,5 @@
 // Pastries are $2 for 1, and $5 for 3
-namespace Project
+namespace Bakery.Models
 {
   public class Pastries
   {
