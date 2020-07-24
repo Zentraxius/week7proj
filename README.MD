@@ -32,8 +32,8 @@
 6.  Open the directory containing the extracted files.
 7.  Open your computer's terminal and navigate to the directory bearing the name of the program and containing the top level subdirectories and files.
 8.  Run dotnet restore to generate the backend files
-    8a. (Note: Ensure you are in proper directory, for example if you are in Desktop/Bakery.Solution, you would need to either move into Desktop/Bakery.Solution/Project.Tests or run dotnet restore Project.Tests)
-9.  Run dotnet test on Project.Tests to initiate the test, either by being in the Project.Tests directory, or running "dotnet test Project.Tests" without quotations from the Bakery.Solutions directory
+    8a. (Note: Ensure you are in proper directory, for example if you are in Desktop/Bakery.Solution, you would need to either move into Desktop/Bakery.Solution/Bakery.Tests or run dotnet restore Bakery.Tests)
+9.  Run dotnet test on Bakery.Tests to initiate the test, either by being in the Bakery.Tests directory, or running "dotnet test Bakery.Tests" without quotations from the Bakery.Solutions directory
 10. Run dotnet run from Bakery.Solutions to run program as a whole.
 
 ## Known Bugs

@@ -18,7 +18,7 @@ namespace Bakery.Tests
       Pastries pastriesTest = new Pastries(30);
       Assert.AreEqual(30, pastriesTest.AmountOfPastries);
     }
-    [TestMethod]
+    [TestMethod] // What are their price?
     public void PastriesPricer_TestShouldTellPriceOfPastries_PastriesHavePrice()
     {
       Pastries pastriesTest = new Pastries(32);

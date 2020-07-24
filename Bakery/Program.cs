@@ -1,8 +1,8 @@
 using System;
-// using Bakery.Models;
+using Bakery.Models;
 using System.Collections.Generic;
 
-namespace Bakery.Models
+namespace Bakery
 {
   class Program
   {
