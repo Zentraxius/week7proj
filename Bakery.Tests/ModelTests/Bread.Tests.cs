@@ -27,5 +27,11 @@ namespace Bakery.Tests
       Bread breadTest = new Bread(25);
       Assert.AreEqual(85, breadTest.Price());
     }
+    [TestMethod] // Discount Free Price
+    public void BreadPrice2_WhatIsDiscountFreePrice_BreadIsDelicious()
+    {
+      Bread breadTest = new Bread(2);
+      Assert.AreEqual(10, breadTest.Price());
+    }
   }
 }

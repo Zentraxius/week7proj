@@ -24,5 +24,11 @@ namespace Bakery.Tests
       Pastries pastriesTest = new Pastries(32);
       Assert.AreEqual(54, pastriesTest.Price());
     }
+    [TestMethod] // Do they have discount free pricing for sub3
+    public void PastriesPricer2_ShouldHaveNormalPriceOf2_DeliciousPastries()
+    {
+      Pastries pastriesTest = new Pastries(2);
+      Assert.AreEqual(4, pastriesTest.Price());
+    }
   }
 }

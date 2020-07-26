@@ -12,7 +12,11 @@ namespace Bakery
       Console.WriteLine("Hello, welcome to Pierre's Bakery.");
       Console.WriteLine("Bread is $5 a loaf, and has a buy 2 get 1 free deal!");
       Console.WriteLine("Pastries, are only $2 each and have a 3 for $5 deal!");
-      Console.WriteLine("-----------------------------------------------------");
+      Console.WriteLine(" ▄▄▄·▪  ▄▄▄ .▄▄▄  ▄▄▄  ▄▄▄ ..▄▄ ");
+      Console.WriteLine("▐█ ▄███ ▀▄.▀·▀▄ █·▀▄ █·▀▄.▀·▐█ ▀.");
+      Console.WriteLine(" ██▀·▐█·▐▀▀▪▄▐▀▀▄ ▐▀▀▄ ▐▀▀▪▄▄▀▀▀█");
+      Console.WriteLine("▐█▪·•▐█▌▐█▄▄▌▐█•█▌▐█•█▌▐█▄▄▌▐█▄▪▐█");
+      Console.WriteLine(".▀   ▀▀▀ ▀▀▀ .▀  ▀.▀  ▀ ▀▀▀  ▀▀▀▀");
       Console.WriteLine("How many loaves of bread would you like?");
       string breadOrdered = Console.ReadLine();
       int priceOfBread;
